@@ -1,0 +1,159 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <title>Strain</title>
+    <link rel="icon" type="image/png" href="assets/img/variezone-logo.png">
+    <link type="text/css" rel="stylesheet" href="assets/css/front_end.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/fonts.css"/>
+    <link type="text/css" rel="stylesheet" href="assets/css/responsive.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/owl.carousel.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/owl.theme.css" />
+    <link type="text/css" rel="stylesheet" href="assets/css/owl.transitions.css" />
+    <script type="text/javascript" src="assets/js/jquery-1.8.2.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-scrolltofixed.js"></script>
+    <script type="text/javascript" src="assets/js/prefixfree-1.0.7.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <script type="text/javascript" src="assets/js/owl.carousel.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.flexslider-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js"></script>
+
+
+    <script type="text/javascript"> 
+        jQuery(document).ready(function($) {
+          $("#owl").owlCarousel({
+            autoPlay: false,
+            navigation: true,
+            slideSpeed: 2000,
+            addClassActive: true,
+            transitionStyle: "fadeUp",
+            singleItem: true
+          });
+
+          $('a.g_img_hld').fancybox();
+          
+        });
+    </script>
+
+
+  </head>
+
+  <body>
+  
+    <div id="main_wrapper">
+
+      <div class="pg_wrap">
+
+        <div class="header">
+          <div class="hdr">
+              <div class="b_logo">
+                  <a href="index.html">
+                      <img src="assets/img/logo2.png"/>
+                  </a>
+              </div>
+              <div class="menu">
+                  <ul>
+                      <li><a href="about.html">About</a></li>
+                      <li><a href="story.html">Story</a></li>
+                      <li><a href="cast.html">Cast & Crew</a></li>
+                      <li><a href="gallery.html">Gallery</a></li>
+                      <li><a href="careers.html">Get Tickets</a></li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+
+        <div class="banner clearfix" style="background-image: url(media/photo2.jpg); background-position: top;">
+            <div class="overlay"></div>
+            <div class="captions">
+                <div class="pg_title">Gallery</div>  
+                <div class="major_caption">SPOTLIGHT TELLS THE RIVETING TRUE STORY BEHIND THE PULITZER...</div>
+            </div>
+        </div>
+
+      </div>
+
+      <div class="section g_hld">
+        <div class="inner_wrap clearfix">
+            <a class="g_img_hld" data-fancybox-group="group" href="media/photo5.jpg">
+                <div class="g_photo" style="background-image: url(media/photo5.jpg);"></div>
+            </a>
+            <a class="g_img_hld" data-fancybox-group="group" href="media/photo15.jpg">
+                <div class="g_photo" style="background-image: url(media/photo15.jpg);"></div>
+            </a>
+            <a class="g_img_hld" data-fancybox-group="group" href="media/photo8.jpg">
+                <div class="g_photo" style="background-image: url(media/photo8.jpg);"></div>
+            </a>
+            <a class="g_img_hld" data-fancybox-group="group" href="media/photo14.jpg">
+                <div class="g_photo" style="background-image: url(media/photo14.jpg);"></div>
+            </a>
+            <a class="g_img_hld" data-fancybox-group="group" href="media/photo12.jpg">
+                <div class="g_photo" style="background-image: url(media/photo12.jpg);"></div>
+            </a>
+            <a class="g_img_hld" data-fancybox-group="group" href="media/photo13.jpg">
+                <div class="g_photo" style="background-image: url(media/photo13.jpg);"></div>
+            </a>
+            <a class="g_img_hld" data-fancybox-group="group" href="media/photo4.jpg">
+                <div class="g_photo" style="background-image: url(media/photo4.jpg);"></div>
+            </a>
+            <div class="cta g_btn"><a href="">Click any photo to See All</a></div>
+        </div>
+      </div>
+
+      <div class="section">
+          <div class="inner_wrap">
+            <div class="pg_hd">Video Gallery</div>
+            <div id="owl" class="owl-carousel owl-theme">
+                <div class="item">
+                    <video id="myvideo" controls src="media/samplevideobg.mp4"></video>
+                    <div class="v_cap">Trailer</div>
+                </div>
+                <div class="item">
+                    <video id="myvideo" controls src="media/movietrailer.mp4"></video>
+                    <div class="v_cap">Behind the Scenes</div>
+                </div>
+            </div> 
+          </div>
+      </div>
+
+      <div class="footer">
+        <div class="inner_wrap clearfix">
+          <div class="col">
+            <div class="ft_hd">Reviews</div>
+            <div class="in_row clearfix">
+              <div class="tgroup">
+                <input type="text" name="your-name" placeholder="Name" value="" size="40"/>
+              </div>
+              <div class="tgroup">
+                <textarea name="your-comment" placeholder="Your Comment" cols="40" rows="1"></textarea>
+              </div>
+              <div class="cta"><a href="#">Submit</a></div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="ft_hd">Contact Us</div>
+            <div class="in_row">
+              <p>Calle de los Madrazo, p4 of2, <br> Madrid, 28014</p>
+              <p><a href="">+23477153399</a></p>
+              <p><a href="">strainthemovie.com</a></p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="ft_hd">Follow Us</div>
+            <div class="ft_social">
+              <a href="" class="fab fa-facebook-f"></a>
+              <a href="" class="fab fa-twitter"></a>
+              <a href="" class="fab fa-instagram"></a>
+              <div class="copyright">&copy; 2020 Strainthemovie <br>All Rights Reserved.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+     
+     
+    </div>
+  
+  </body>
+</html>

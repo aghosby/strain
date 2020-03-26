@@ -29,15 +29,13 @@ $(document).ready(function() {
 
     $(".menu_icon").click(function(e){
 		e.preventDefault();
-        $(".menu").animate({
-            width: "toggle"
-        });
-		($(".menu_text").text() === "CLOSE") ? $(".menu_text").text("MENU") : $(".menu_text").text("CLOSE");
-    });    
-	$(".menubtn").on("click", function() {
-		$(this).toggleClass('is_active');
-		$('.menu').slideToggle('fast');
+		$(".menu_wrap").fadeToggle(700);
+		$('.b_icon').toggleClass('active');
+		$('.bbart').toggleClass('active')
+		$('.bbarb').toggleClass('active')
+		$('.bbarm').toggleClass('active')
 	});
+	
 		
 	$("body").delegate(".ic", "click", function (e) {
 		e.stopPropagation();

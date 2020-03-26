@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: 'RobotoThin';
+	src: url(../fonts/Roboto-Thin.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'RobotoLight';
+	src: url(../fonts/RobotoCondensed-Light.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'RobotoReg';
+	src: url(../fonts/RobotoCondensed-Regular.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'RobotoMed';
+	src: url(../fonts/Roboto-Medium.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'RobotoBold';
+	src: url(../fonts/RobotoCondensed-Bold.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'RobotoR';
+	src: url(../fonts/Roboto-Regular.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
